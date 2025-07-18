@@ -3,6 +3,9 @@
 ## Objective
 Build a serverless image metadata processing pipeline using Azure Durable Functions in Python. This solution uses blob triggers, activity functions, and output bindings to simulate a real-world event-driven system.
 
+## YouTube Demo
+[Youtube video Link](https://youtu.be/YTMCbmk4m_0)
+
 ## Workflow Overview
 1. **Blob Trigger (Client Function):**
    - Triggers on new image uploads (.jpg, .png, .gif) to the `images-input` container.
@@ -72,5 +75,4 @@ az sql server firewall-rule create --resource-group cst8917-rg --server cst8917s
 
 
 
-## YouTube Demo
 
