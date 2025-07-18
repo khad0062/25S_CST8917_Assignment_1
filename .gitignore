@@ -2,7 +2,10 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+extensions.json
+setting.json
+tasks.json
+launch.json
 # C extensions
 *.so
 
